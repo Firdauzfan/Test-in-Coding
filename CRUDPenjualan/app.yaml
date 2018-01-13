@@ -1,0 +1,13 @@
+env: flex
+runtime: php
+runtime_config:
+  document_root: .
+  
+beta_settings:
+    cloud_sql_instances: "coherent-lock-161803:asia-east1:inventory"
+
+env_variables:
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/coherent-lock-161803:asia-east1:inventory;dbname=inventory
+  MYSQL_USER: root
+  MYSQL_PASSWORD: 12071995
+
