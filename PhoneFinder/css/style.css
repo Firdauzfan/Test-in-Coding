@@ -1,0 +1,138 @@
+
+#myInput {
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.multiselect {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+#checkboxes2 {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes2 label {
+  display: block;
+}
+
+#checkboxes2 label:hover {
+  background-color: #1e90ff;
+}
+
+.boxed{
+  border: 2px solid;
+  display: inline-block;
+  width: 200px;
+  background-color: #cccccc;
+  margin: 5px 5px 5px 5px;
+  vertical-align: top;
+}
+
+.boxed p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.boxed h4{
+  margin-left: 10px;
+  
+}
+
+.boxeded{
+  background-color: #ececec;
+  border: 2px solid;
+  padding: 20px 20px 20px 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   overflow: hidden;
+
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 2px;
+}
+
+.blue    { background-color: #bababa }
+
+.inactiveLink {
+   
+   cursor: default;
+   color: #000000;
+}
